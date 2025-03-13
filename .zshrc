@@ -88,6 +88,7 @@ plugins=(git
  zsh-syntax-highlighting
  zsh-history-substring-search
  nvm
+ fzf
  debian)
 
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
@@ -130,3 +131,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Created by `pipx` on 2024-10-25 00:57:32
 export PATH="$PATH:/home/rektora/.local/bin"
+export PATH="$PATH:/usr/local/go/bin"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
